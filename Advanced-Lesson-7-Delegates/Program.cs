@@ -20,6 +20,15 @@ namespace Advanced_Lesson_7_Delegates
             //Lesson.CarDelegateExample();
             //Lesson.ExamExample();
 
+            Practice practice = new Practice();
+
+            practice.StrinFormatter();
+
+            foreach (var text in practice.text)
+            {
+                Console.WriteLine(text);
+            }
+            
             Console.ReadLine();
         }
     }
